@@ -1,0 +1,15 @@
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\bin\Debug\netstandard2.0\Expenses.deps.json
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\bin\Debug\netstandard2.0\Expenses.dll
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\bin\Debug\netstandard2.0\Expenses.pdb
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\obj\Debug\netstandard2.0\Expenses.csprojAssemblyReference.cache
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\obj\Debug\netstandard2.0\Expenses.csproj.CoreCompileInputs.cache
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\obj\Debug\netstandard2.0\Expenses.AssemblyInfoInputs.cache
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\obj\Debug\netstandard2.0\Expenses.AssemblyInfo.cs
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\obj\Debug\netstandard2.0\Expenses.dll
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\obj\Debug\netstandard2.0\Expenses.pdb
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\obj\Debug\netstandard2.0\Views\CategoriesPage.xaml.g.cs
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\obj\Debug\netstandard2.0\Views\ExpensesPage.xaml.g.cs
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\obj\Debug\netstandard2.0\Views\NewExpensePage.xaml.g.cs
+C:\Users\Edgar\source\repos\Expenses\Expenses\Expenses\obj\Debug\netstandard2.0\XamlC.stamp
