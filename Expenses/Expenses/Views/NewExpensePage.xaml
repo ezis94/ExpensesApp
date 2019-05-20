@@ -16,7 +16,7 @@
         <StackLayout Margin="16" BindingContext="{Binding Source={StaticResource vm}}">
             <TableView>
                 <TableRoot>
-                    <TableSection Title="New Expense">
+                    <TableSection>
                         <EntryCell Label="Name:"
                                    Placeholder="Expense name"
                                    Text="{Binding ExpenseName, Mode=TwoWay}"/>
