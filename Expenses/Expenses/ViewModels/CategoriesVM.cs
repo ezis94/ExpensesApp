@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
+using Expenses.Model;
+using System.Linq;
 
 namespace Expenses.ViewModels
 {
@@ -12,10 +14,34 @@ namespace Expenses.ViewModels
             get;
             set;
         }
+        public ObservableCollection<CategoryExpenses> CategoryExpensesCollection
+        {
+            get;
+            set;
+        }
         public CategoriesVM()
         {
             Categories = new ObservableCollection<string>();
+            CategoryExpensesCollection = new ObservableCollection<CategoryExpenses>();
             GetCategories();
+            GetExpensesPerCategory();
+        }
+
+        public void GetExpensesPerCategory()
+        {
+            CategoryExpensesCollection.Clear();
+            float totalExpensesAmount = Expense.TotalExpensesAmount();
+            foreach(string c in Categories)
+            {
+                var expenses = Expense.GetExpenses(c);
+                float expensesAmountInCategory = expenses.Sum(e => e.Amount);
+                CategoryExpenses ce = new CategoryExpenses()
+                {
+                    Category = c,
+                    ExpensesPercentage = expensesAmountInCategory / totalExpensesAmount
+                };
+                CategoryExpensesCollection.Add(ce);
+            }
         }
 
         private void GetCategories()
@@ -29,6 +55,19 @@ namespace Expenses.ViewModels
             Categories.Add("Travel");
             Categories.Add("Other");
 
+        }
+        public class CategoryExpenses
+        {
+            public string Category
+            {
+                get;
+                set;
+            }
+            public float ExpensesPercentage
+            {
+                get;
+                set;
+            }
         }
     }
 }
