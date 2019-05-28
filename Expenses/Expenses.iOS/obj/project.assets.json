@@ -177,7 +177,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms": "4.0.0.425677",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -364,7 +364,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms": "4.0.0.425677",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -551,7 +551,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms": "4.0.0.425677",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -738,7 +738,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms": "4.0.0.425677",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -1011,34 +1011,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\edgrau\\.nuget\\packages\\": {}
+    "/Users/edgarsraudive/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\edgrau\\source\\repos\\ExpensesApp\\Expenses\\Expenses.iOS\\Expenses.iOS.csproj",
+      "projectUniqueName": "/Users/edgarsraudive/ExpensesApp/Expenses/Expenses.iOS/Expenses.iOS.csproj",
       "projectName": "Expenses.iOS",
-      "projectPath": "C:\\Users\\edgrau\\source\\repos\\ExpensesApp\\Expenses\\Expenses.iOS\\Expenses.iOS.csproj",
-      "packagesPath": "C:\\Users\\edgrau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\edgrau\\source\\repos\\ExpensesApp\\Expenses\\Expenses.iOS\\obj\\",
+      "projectPath": "/Users/edgarsraudive/ExpensesApp/Expenses/Expenses.iOS/Expenses.iOS.csproj",
+      "packagesPath": "/Users/edgarsraudive/.nuget/packages/",
+      "outputPath": "/Users/edgarsraudive/ExpensesApp/Expenses/Expenses.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\edgrau\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/edgarsraudive/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\edgrau\\source\\repos\\ExpensesApp\\Expenses\\Expenses\\Expenses.csproj": {
-              "projectPath": "C:\\Users\\edgrau\\source\\repos\\ExpensesApp\\Expenses\\Expenses\\Expenses.csproj"
+            "/Users/edgarsraudive/ExpensesApp/Expenses/Expenses/Expenses.csproj": {
+              "projectPath": "/Users/edgarsraudive/ExpensesApp/Expenses/Expenses/Expenses.csproj"
             }
           }
         }
@@ -1065,5 +1063,20 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.0.0.425677 to 3.4.0.1008975. Reference the package directly from the project to select a different version. \n Expenses.iOS -> Expenses -> Xamarin.Forms (>= 4.0.0.425677) \n Expenses.iOS -> Xamarin.Forms (>= 3.4.0.1008975)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

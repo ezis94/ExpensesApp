@@ -4,6 +4,8 @@ using System.Collections.ObjectModel;
 using System.Text;
 using Expenses.Model;
 using System.Linq;
+using Expenses.Interfaces;
+using Xamarin.Forms;
 
 namespace Expenses.ViewModels
 {
@@ -55,6 +57,11 @@ namespace Expenses.ViewModels
             Categories.Add("Travel");
             Categories.Add("Other");
 
+        }
+        public void ShareReport()
+        {
+            IShare shareDependency = DependencyService.Get<IShare>();
+            shareDependency.Show("", "", "");
         }
         public class CategoryExpenses
         {
