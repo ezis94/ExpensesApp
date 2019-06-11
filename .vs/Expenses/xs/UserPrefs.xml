@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{3711F6B0-D962-4F55-95D5-8098527DBFF4}|Default">
+  <MonoDevelop.Ide.ItemProperties.Expenses.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Expenses/Expenses/App.xaml">
+    <Files>
+      <File FileName="Expenses/Expenses/App.xaml" />
+      <File FileName="Expenses/Expenses/Views/MainPage.xaml" />
+      <File FileName="Expenses/Expenses/App.xaml.cs" Line="23" Column="42" />
+      <File FileName="Expenses/Expenses/Views/NewExpensePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Expenses/Expenses/Views/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Expenses/Expenses/Views/ExpensesPage.xaml" />
+      <File FileName="Expenses/Expenses/Model/Expense.cs" Line="1" Column="1" />
+      <File FileName="Expenses/Expenses/Interfaces/IShare.cs" Line="1" Column="1" />
+      <File FileName="Expenses/Expenses/ViewModels/CategoriesVM.cs" Line="78" Column="10" />
+      <File FileName="Expenses/Expenses/Views/CategoriesPage.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Expenses" expanded="True">
+            <Node name="Expenses" expanded="True">
+              <Node name="App.xaml" expanded="True" selected="True" />
+            </Node>
+            <Node name="Expenses.iOS" expanded="True">
+              <Node name="References" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Expenses.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7269E7C2-E082-47E7-ACE1-5DCA6E31CB62" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/edgarsraudive/ExpensesApp/Expenses/Expenses.Android/Resources/Resource.designer.cs" relfile="Expenses/Expenses.Android/Resources/Resource.designer.cs" line="18" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using System.Text;
 using Xamarin.Forms;
 using Expenses.Views;
+using Expenses.Interfaces;
 
 namespace Expenses.ViewModels
 {
@@ -41,5 +42,6 @@ namespace Expenses.ViewModels
         {
             Application.Current.MainPage.Navigation.PushAsync(new NewExpensePage());
         }
+
     }
 }
