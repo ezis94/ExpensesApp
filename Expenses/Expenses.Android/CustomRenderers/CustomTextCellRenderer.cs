@@ -32,7 +32,7 @@ namespace Expenses.Droid.CustomRenderers
                 case "disclosure":
                     break;
                 default:
-                    cell.SetBackgroundColor(Android.Graphics.Color.BlanchedAlmond);0 .æ
+                    cell.SetBackgroundColor(Android.Graphics.Color.BlanchedAlmond);
                     break;
             }
             return cell;

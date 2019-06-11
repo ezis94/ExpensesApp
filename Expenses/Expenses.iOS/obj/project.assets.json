@@ -2,6 +2,17 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "PCLStorage/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -177,7 +188,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.0.0.425677",
+          "PCLStorage": "1.0.2",
+          "Xamarin.Forms": "4.0.0.482894",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -189,6 +201,17 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "PCLStorage/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -364,7 +387,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.0.0.425677",
+          "PCLStorage": "1.0.2",
+          "Xamarin.Forms": "4.0.0.482894",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -376,6 +400,17 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "PCLStorage/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -551,7 +586,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.0.0.425677",
+          "PCLStorage": "1.0.2",
+          "Xamarin.Forms": "4.0.0.482894",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -563,6 +599,17 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "PCLStorage/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -738,7 +785,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.0.0.425677",
+          "PCLStorage": "1.0.2",
+          "Xamarin.Forms": "4.0.0.482894",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -751,6 +799,53 @@
     }
   },
   "libraries": {
+    "PCLStorage/1.0.2": {
+      "sha512": "gj37kg2DqlKADjnoax9wqSLSo9ZeEBRTEqfXg3R+fm2sbgst2B0Xa6TX1sh2ORrj83vk8lzyZ/DGEQx7c2QKPg==",
+      "type": "package",
+      "path": "pclstorage/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid/PCLStorage.Abstractions.dll",
+        "lib/monoandroid/PCLStorage.Abstractions.xml",
+        "lib/monoandroid/PCLStorage.dll",
+        "lib/monoandroid/PCLStorage.xml",
+        "lib/monotouch/PCLStorage.Abstractions.dll",
+        "lib/monotouch/PCLStorage.Abstractions.xml",
+        "lib/monotouch/PCLStorage.dll",
+        "lib/monotouch/PCLStorage.xml",
+        "lib/net45/PCLStorage.Abstractions.dll",
+        "lib/net45/PCLStorage.Abstractions.xml",
+        "lib/net45/PCLStorage.dll",
+        "lib/net45/PCLStorage.xml",
+        "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll",
+        "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.xml",
+        "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll",
+        "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.xml",
+        "lib/portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll",
+        "lib/portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.xml",
+        "lib/portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.dll",
+        "lib/portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.xml",
+        "lib/portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.dll",
+        "lib/portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.xml",
+        "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll",
+        "lib/portable-win8+wpa81/PCLStorage.Abstractions.xml",
+        "lib/portable-win8+wpa81/PCLStorage.dll",
+        "lib/portable-win8+wpa81/PCLStorage.xml",
+        "lib/sl5/PCLStorage.Abstractions.dll",
+        "lib/sl5/PCLStorage.Abstractions.xml",
+        "lib/sl5/PCLStorage.dll",
+        "lib/sl5/PCLStorage.xml",
+        "lib/wp8/PCLStorage.Abstractions.dll",
+        "lib/wp8/PCLStorage.Abstractions.xml",
+        "lib/wp8/PCLStorage.dll",
+        "lib/wp8/PCLStorage.xml",
+        "pclstorage.1.0.2.nupkg.sha512",
+        "pclstorage.nuspec"
+      ]
+    },
     "sqlite-net-pcl/1.5.231": {
       "sha512": "Sy+K+Wm2RZ+4b1uLHsaXvfR92Or71XxPXa2Id6msSOVkZKh+c+PUk/HQOAgxyhm3lhvysL0mK6Gd6mI69NJ9AA==",
       "type": "package",
@@ -1011,32 +1106,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/edgarsraudive/.nuget/packages/": {}
+    "C:\\Users\\edgrau\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/edgarsraudive/ExpensesApp/Expenses/Expenses.iOS/Expenses.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\edgrau\\source\\repos\\ExpensesApp\\Expenses\\Expenses.iOS\\Expenses.iOS.csproj",
       "projectName": "Expenses.iOS",
-      "projectPath": "/Users/edgarsraudive/ExpensesApp/Expenses/Expenses.iOS/Expenses.iOS.csproj",
-      "packagesPath": "/Users/edgarsraudive/.nuget/packages/",
-      "outputPath": "/Users/edgarsraudive/ExpensesApp/Expenses/Expenses.iOS/obj/",
+      "projectPath": "C:\\Users\\edgrau\\source\\repos\\ExpensesApp\\Expenses\\Expenses.iOS\\Expenses.iOS.csproj",
+      "packagesPath": "C:\\Users\\edgrau\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\edgrau\\source\\repos\\ExpensesApp\\Expenses\\Expenses.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/edgarsraudive/.config/NuGet/NuGet.Config"
+        "C:\\Users\\edgrau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/edgarsraudive/ExpensesApp/Expenses/Expenses/Expenses.csproj": {
-              "projectPath": "/Users/edgarsraudive/ExpensesApp/Expenses/Expenses/Expenses.csproj"
+            "C:\\Users\\edgrau\\source\\repos\\ExpensesApp\\Expenses\\Expenses\\Expenses.csproj": {
+              "projectPath": "C:\\Users\\edgrau\\source\\repos\\ExpensesApp\\Expenses\\Expenses\\Expenses.csproj"
             }
           }
         }
@@ -1069,7 +1166,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.0.0.425677 to 3.4.0.1008975. Reference the package directly from the project to select a different version. \n Expenses.iOS -> Expenses -> Xamarin.Forms (>= 4.0.0.425677) \n Expenses.iOS -> Xamarin.Forms (>= 3.4.0.1008975)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.0.0.482894 to 3.4.0.1008975. Reference the package directly from the project to select a different version. \r\n Expenses.iOS -> Expenses -> Xamarin.Forms (>= 4.0.0.482894) \r\n Expenses.iOS -> Xamarin.Forms (>= 3.4.0.1008975)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",

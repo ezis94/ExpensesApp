@@ -17,7 +17,7 @@ namespace Expenses.Views
 
 		public CategoriesPage ()
 		{
-			InitializeComponent ();
+			InitializeComponent();
             ViewModel = Resources["vm"] as CategoriesVM;
 		}
         protected override void OnAppearing()

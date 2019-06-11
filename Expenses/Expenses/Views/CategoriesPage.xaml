@@ -8,6 +8,12 @@
             <vm:CategoriesVM x:Key="vm"/>
         </ResourceDictionary>
     </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text=" Export"
+                     Command="{Binding Source={StaticResource vm}, Path=ExportCommand}">
+            
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ListView ItemsSource="{Binding Source={StaticResource vm}, Path=CategoryExpensesCollection}">
             <ListView.ItemTemplate>
